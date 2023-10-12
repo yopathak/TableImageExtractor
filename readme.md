@@ -16,7 +16,7 @@ A Python module to extract tabular data from images and convert it to a structur
 
 1. Import the main function:
    ```python
-   from main import extract_to_dataframe
+   from table_extractor import extract_to_dataframe
    
    df = extract_to_dataframe('path_to_your_image.jpg')
    print(df)
