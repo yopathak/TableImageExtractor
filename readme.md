@@ -19,12 +19,13 @@ A Python module to extract tabular data from images and convert it to a structur
    from main import extract_to_dataframe
    
    df = extract_to_dataframe('path_to_your_image.jpg')
-   print(df)```
+   print(df)
+   ```
    
 
 ## Dependencies:
     
-OpenCV
-pytesseract
-pandas
-concurrent.futures
+* OpenCV
+* pytesseract
+* pandas
+* concurrent.futures
